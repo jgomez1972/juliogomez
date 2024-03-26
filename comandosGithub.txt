@@ -1,0 +1,13 @@
+Comandos de Git Basicos 
+
+git clone (direccion de repositorio) -> 'clona el repositorio localmente' 
+git status -> 'indica que los archivos se han modificado'
+git add (nombre archivo) -> 'añadir archivos local a github'
+git diff -> 'mostrara las direfencias que hay en el archivo' 
+git commit -m -> 'guarda todos los cambios hechos en la zona de montaje o area de preparacion (staging area)'
+		  junto con una breve descripcion del usuario, en un commit al repositorio local.
+		  el -m agrega comentarios. 
+
+git push -> sube los archivos al repositorio de Github.
+
+				  
