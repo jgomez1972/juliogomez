@@ -5,9 +5,9 @@ Usar GitHb en Windows 10
 3. Crear un repositorio para almacenar codigo.
 4. Cree un Repositorio de Pstgresql de macenar codigo de SQL.
 5. Para cargar informacion a mi cuenta de github se realiza el siguiente paso: 
- 5.1  Instalar GIT-2.44.0-64 y GitHu DEsktop 
+ 5.1  Instalar GIT-2.44.0-64 y Github Desktop(pocional)
 6. Estos sofware sirvira para sincronizar la informacion de mi computador a la cuenta github de la nube.
-   Nota: mas utilizo GIT-2.44.0-64 con coman github. 
+   Nota: mas utilizo GIT-2.44.0-64 con comandos github. 
 7. Cree una carpeta en mi llamada POSTGRESQL en la carpeta ->Ingeniero de aplicaciones -> Querys -> 
 8. para sincronizar realizar el siguiente paso: 
  8.1 ingresar a la carpeta que necesitamos sincronizar desde el explorer (visualiza la informacion de la carperta)  
