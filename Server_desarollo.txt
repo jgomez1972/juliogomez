@@ -1,0 +1,28 @@
+Servidor: SRV-Desarrollo
+Ip: 10.10.20.6
+Windows Server 2022 Standar 
+SQL express ver. 20.1 
+Administrator 
+R0tPN4108
+
+Any Desk 
+ID : 1048733129
+Contraseña R0tDS4108
+
+IP: 10.10.20.6
+
+Sql Express 2022
+Instancia: SQLEXPRESS
+collation: SQL_Latin1_General_CP1_CI_AS
+Password: P@n@v1s10n
+managment 20.2
+
+jgomez 
+p@na2024
+
+margueta
+Pana1234
+
+
+
+C:\ProgramData\Microsoft\Windows\Virtual Hard Disks
