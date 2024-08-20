@@ -1,0 +1,30 @@
+conectarme a la instancia de AWS. 
+
+1. Descargar putty.
+2. Instalar y dentro de la instalacion de putty, llamamos al jecutable puttygen. 
+3. Aca debemos de agregar la llave cifrada que generamos en AWS-EC2.  
+4. cargamos nuestra llave cifrada en la opcion LOAD. 
+5. buscamos la llave con la extencion .pem y luego abrir. 
+6. dejamos la seguridad (RSA) 
+7. ingresamos la clade keypar e la instancia EC2
+8. Seleccionar SAVE.  con archivo .ppk (nombre.ppk) 
+9. luego necesitmos informacion de nuestra instancia. ingresamos a AWS-EC2 
+10. click en la instancia y conectarnos y selecccionar en SSH 
+11. buscar el nombre de la instancia en donde dice ejemplo ssh. 
+     usuario 
+     ns 
+
+12. abrir el aplicativo putty 
+13 ingresamos en la ventana de terminal y pegamos los datos de ec2 
+14 agregamos el nombre de la sesion y grabammos 
+15 vamos a la opcion ssh y opcion autenticacion y seleccionamos nuetra llave .ppk
+16 seleccionamos la opcio si
+
+con Windows podemos utilizar la herramienta WinSCP para conectarnos a la instancia de EC2
+
+https://www.youtube.com/watch?v=7X5qZBF_rkA
+
+
+
+
+
