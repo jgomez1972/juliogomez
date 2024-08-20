@@ -1,0 +1,49 @@
+private void Form1_Load(object sender, EventArgs e)
+        {
+            SAPbobsCOM.Company ocompany = new SAPbobsCOM.Company();
+            try
+            {
+                ocompany.Server = "IPServidor:30015";
+                ocompany.LicenseServer = "IPServidor:40000";
+                ocompany.CompanyDB = "Nombre de BD";
+                ocompany.UserName = "Usuario SAP";
+                ocompany.DbServerType = SAPbobsCOM.BoDataServerTypes.dst_HANADB;
+                ocompany.Password = "Contraseña Usuario SAP";
+                ocompany.UseTrusted = true;
+                ocompany.DbUserName = "SYSTEM";
+                ocompany.DbPassword = "Contraseña SYSTEM";
+
+                int ret = ocompany.Connect();
+                string errMsg = ocompany.GetLastErrorDescription();
+                int ErrNo = ocompany.GetLastErrorCode();
+                if (ErrNo != 0)
+                {
+                    MessageBox.Show(errMsg);
+                }
+                else
+                {
+                   // MessageBox.Show("Conexión establecida");
+                }
+
+                
+
+            }catch(Exception errMsg){
+            }
+        }
+
+
+
+https://itop.academy/blog/item/como-se-conecta-una-sociedad-sap-business-one-a-traves-de-di-api.html
+
+
+https://community.sap.com/t5/enterprise-resource-planning-q-a/reference-of-sap-business-one-di-api-version-9-0-in-visual-studio-2010-is/qaq-p/12301011
+https://codewithedd.com/proyecto-tipo-de-cambio-para-sapb1/
+https://learn.microsoft.com/es-es/biztalk/adapters-and-accelerators/adapter-sap/connecting-to-sap-in-visual-studio-using-add-adapter-service-reference-plug-in
+https://codewithedd.com/proyecto-tipo-de-cambio-para-sapb1/
+https://quetzallearning.com/automatizacion-del-ingreso-de-tipo-de-cambio-sap-business-one/
+
+Data Set
+https://learn.microsoft.com/es-es/sql/reporting-services/lesson-2-define-a-data-connection-and-data-table-for-parent-report?view=sql-server-ver16
+https://learn.microsoft.com/es-es/visualstudio/data-tools/walkthrough-creating-a-dataset-with-the-dataset-designer?view=vs-2022
+https://learn.microsoft.com/es-es/dotnet/api/system.data.datatable?view=net-8.0
+https://learn.microsoft.com/es-es/dotnet/api/system.data.dataset?view=net-8.0
