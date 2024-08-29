@@ -1,0 +1,5 @@
+Clave de Odoo version 17 
+Nota: se instala la version de tipo server, ademas instala el PostgreSql 
+Usuario: pgadmin
+Clave: 
+Link: localhost:8069
