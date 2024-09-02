@@ -15,9 +15,9 @@ conectarme a la instancia de AWS.
      ns 
 
 12. abrir el aplicativo putty 
-13 ingresamos en la ventana de terminal y pegamos los datos de ec2 
-14 agregamos el nombre de la sesion y grabammos 
-15 vamos a la opcion ssh y opcion autenticacion y seleccionamos nuetra llave .ppk
+13 ingresamos en la ventana de terminal y pegamos los datos de ec2 (usuario y ns)
+14 agregamos el nombre de la sesion y grabamos 
+15 vamos a la opcion ssh(izquierda) y opcion autenticacion y seleccionamos nuestra llave .ppk
 16 seleccionamos la opcio si
 
 con Windows podemos utilizar la herramienta WinSCP para conectarnos a la instancia de EC2
