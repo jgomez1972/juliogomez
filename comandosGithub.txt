@@ -10,4 +10,14 @@ git commit -m -> 'guarda todos los cambios hechos en la zona de montaje o area d
 
 git push -> sube los archivos al repositorio de Github.
 
-				  
+subir proyecto en Github 
+
+git init
+git add . 
+git commit -m "progrma visual net"
+git remote add origin https://github.com/jgomez1972/clinica.git
+git push -u origin master
+
+
+
+
